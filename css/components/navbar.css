@@ -1,0 +1,30 @@
+.PDS-logo {
+  /* REMOVE MARGINS once the correct picture is imported */
+  margin-left: -10px;
+  margin-right: 5px;
+  margin-top: -4px;
+  max-height: 40px;
+  width: auto;
+  vertical-align: middle;
+}
+
+.navbar {
+  background: #20458F;
+}
+
+.navbar-brand {
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  color: white !important;
+}
+
+.navbar-toggler {
+  outline: none;
+  box-shadow: none;
+  border: none;
+}
+
+.nav-item.nav-link.active {
+  color: white !important;
+}

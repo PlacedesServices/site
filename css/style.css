@@ -1,0 +1,102 @@
+/* style.css for all html templates */
+
+/* --- Import LA POSTE fonts from google fonts */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600,700|Roboto:400,700&display=swap');
+
+/* --- Import Component stylesheets */
+@import url("components/navbar.css");
+@import url("components/buttons.css");
+
+/* Color Palette - LA POSTE PARTICULIERS
+Jaune - #FFC928
+Bleu  - #20458F  */
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* fix element heights here using computed vh property */
+.navbar.navbar-expand-md.navbar-light {
+  /* height: 8vh; */
+}
+
+.banner {
+  height: 93vh;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+h3, h4 {
+  font-family: 'Roboto', sans-serif;
+}
+
+.justify {
+  text-align: justify;
+}
+
+.center {
+  text-align: center;
+}
+
+.banner {
+  background-size: cover;
+  background-position: center;
+  padding-top: 20%;
+}
+
+.banner h1 {
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  font-size: 1.75rem;
+  font-weight: bold;
+}
+
+.banner p {
+  font-size: 1.25rem;
+  color: white;
+  opacity: .9;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+
+/* STYLE - CGU */
+.card {
+  border-radius: 0px;
+  border: none;
+}
+
+.card-header {
+  border-bottom: 1px solid lightgrey;
+  border-right: 1px solid lightgrey;
+  border-radius: 0px !important;
+  background-color: #FFC928;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.card-header > h1 > button {
+  width: 95%;
+  /* background: #111111; */
+  text-align: left;
+  font-size: 0.9rem;
+  color: #111111;
+  font-weight: 600;
+}
+
+.card-body {
+  font-size: 0.9rem;
+}
+
+.btn-link:hover, .btn-link:active {
+  text-decoration: none;
+  color: #111111;
+}

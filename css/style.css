@@ -13,17 +13,10 @@ Bleu  - #20458F  */
 
 body {
   font-family: 'Roboto', sans-serif;
+  height: calc(var(--vh, 1vh) * 100);
 }
 
-/* fix element heights here using computed vh property */
-.navbar.navbar-expand-md.navbar-light {
-  /* height: 8vh; */
-}
-
-.banner {
-  height: 93vh;
-}
-
+/* Titles and paragraphs */
 h1 {
   font-family: 'Montserrat', sans-serif;
   font-size: 1.25rem;
@@ -34,6 +27,7 @@ h2 {
   font-family: 'Montserrat', sans-serif;
   font-size: 1rem;
   font-weight: 600;
+  line-height: 140%;
 }
 
 h3, h4 {
@@ -46,6 +40,20 @@ h3, h4 {
 
 .center {
   text-align: center;
+}
+
+/* Container components */
+.navbar-brand {
+  height: calc(var(--vh, 1vh) * 7.5);
+  margin-bottom: 0px;
+  margin-top: 0px;
+  margin-right: 0px;
+}
+
+section {
+  padding-top: 0px;
+  margin-top: 0px;
+  height: calc(var(--vh, 1vh) * 92.5);
 }
 
 .banner {
@@ -87,13 +95,17 @@ h3, h4 {
   width: 95%;
   /* background: #111111; */
   text-align: left;
-  font-size: 0.9rem;
+  font-size: 1rem;
   color: #111111;
   font-weight: 600;
 }
 
 .card-body {
   font-size: 0.9rem;
+}
+
+.card-body h6 {
+ font-size: 1rem;
 }
 
 .btn-link:hover, .btn-link:active {

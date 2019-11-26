@@ -2,14 +2,14 @@
   /* REMOVE MARGINS once the correct picture is imported */
   margin-left: -10px;
   margin-right: 5px;
-  margin-top: -4px;
   max-height: 40px;
   width: auto;
-  vertical-align: middle;
 }
 
 .navbar {
   background: #20458F;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 
 .navbar-brand {
@@ -17,6 +17,11 @@
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
   color: white !important;
+}
+
+/* TODO : Align items horizontally using flex-properties - try wrapping <a> with a <div> instead */
+a.navbar-brand {
+  padding-top: 3.75%;
 }
 
 .navbar-toggler {

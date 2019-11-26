@@ -20,9 +20,9 @@
 }
 
 /* TODO : Align items horizontally using flex-properties - try wrapping <a> with a <div> instead */
-a.navbar-brand {
+/* a.navbar-brand {
   padding-top: 3.75%;
-}
+} */
 
 .navbar-toggler {
   outline: none;

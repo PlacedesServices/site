@@ -93,12 +93,13 @@ section {
 
 .card-header > h1 > button {
   width: 95%;
-  /* background: #111111; */
   text-align: left;
   font-size: 1rem;
   color: #111111;
   font-weight: 600;
 }
+
+
 
 .card-body {
   font-size: 0.9rem;

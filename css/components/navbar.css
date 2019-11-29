@@ -28,4 +28,5 @@
 
 .nav-item.nav-link.active {
   color: white !important;
+  font-weight: 600;
 }

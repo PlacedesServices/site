@@ -42,6 +42,10 @@ h3, h4 {
   text-align: center;
 }
 
+.left {
+  text-align: left;
+}
+
 /* Container components */
 .navbar-brand {
   height: calc(var(--vh, 1vh) * 10);

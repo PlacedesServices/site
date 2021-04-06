@@ -1,0 +1,32 @@
+.PDS-logo {
+  /* REMOVE MARGINS once the correct picture is imported */
+  margin-left: -10px;
+  margin-right: 5px;
+  max-height: calc(var(--vh, 1vh) * 6);
+  width: auto;
+}
+
+.navbar {
+  background: #20458F;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.navbar-brand {
+  padding-top: calc(var(--vh, 1vh) * 2);
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  color: white !important;
+}
+
+.navbar-toggler {
+  outline: none;
+  box-shadow: none;
+  border: none;
+}
+
+.nav-item.nav-link.active {
+  color: white !important;
+  font-weight: 600;
+}
